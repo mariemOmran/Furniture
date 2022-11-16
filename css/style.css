@@ -126,6 +126,9 @@ nav .container .toggle-menue{
     cursor: pointer;
 }
 @media (min-width:786px) {
+    nav .container{
+        flex-wrap:wrap;
+    }
     nav .container .toggle-menue{
         display: none;
     }

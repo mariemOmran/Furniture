@@ -117,7 +117,6 @@ nav .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap:wrap;
 }
 nav .container .toggle-menue{
     color:var(--main-color);
@@ -137,6 +136,12 @@ nav .container p{
     color:#616060;
     margin:16px;
 }
+@media (max-width:776px;){
+    nav .container p{
+            margin: 9px;
+    font-size: 20px;
+    }
+}
 nav .container p span{
     text-transform: uppercase;
     color: var(--main-color);
@@ -144,6 +149,11 @@ nav .container p span{
 nav .container ul {
     display: flex;
     justify-content: space-between;
+}
+@media(max-width:786px){
+    nav .container ul:last-of-type{
+        padding:0;
+    }
 }
 nav .container ul:first-of-type li{
     margin-left:20px;
@@ -191,6 +201,11 @@ nav .container ul:first-of-type li:hover a{
 }
 nav .container ul:last-of-type li {
     margin-left: 30px;
+}
+@media(max-width:776px){
+    nav .container ul:last-of-type li{
+         margin-left: 13px;
+    }
 }
 nav .container ul:last-of-type li a{
     font-size: 18px;
